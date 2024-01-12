@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Header{
+  background-color:teal ;
+  color: white;
+  height: 80px;
+}
+.HeaderText{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Sora', sans-serif;
+}
+
+.LoginPage{
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 175px;
+  height: 80px;
+  border:3px solid black;
+  border-radius: 50px;
+  font-family: 'Sora', sans-serif;
+  text-align: center;
+  margin: 5px;
+}
+
+.LoginPage:hover{
+  background-color: blue;
+}
+
+.SubjectsButton{
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  width: 175px;
+  height: 80px;
+  border:3px solid black;
+  border-radius: 50px;
+  font-family: 'Sora', sans-serif;
+  text-align: center;
+  margin: 5px;}
+
+.SubjectsButton:hover{
+  background-color: blue;
+}
+
+
+.AboutusButton{  background-color: teal;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 175px;
+  height: 80px;
+  border:3px solid black;
+  border-radius: 50px;
+  font-family: 'Sora', sans-serif;
+  margin: 5px;
+  text-align: center;
+ 
+}
+
+.AboutusButton:hover{
+  background-color: blue;
+}
+
+.ContactButton{  background-color: teal;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 175px;
+  height: 80px;
+  border:3px solid black;
+  border-radius: 50px;
+  font-family: 'Sora', sans-serif;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.ContactButton:hover{
+  background-color: blue;
+}
+
+.CookiesButton{  background-color: teal;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 175px;
+  height: 80px;
+  border:3px solid black;
+  border-radius: 50px;
+  font-family: 'Sora', sans-serif;
+  text-align: center;
+  margin: 5px;
+
+}
+
+.CookiesButton:hover{
+  background-color: blue;
+}
+
+.HomePageButtons{
+  margin: auto;
+  width: 50%;
+}
+
+.py-3my-4{
+  background-color: teal;
+  text-align: center;
+  color: white;
+  font-family: 'Sora', sans-serif;
+  font-size: 35px;
+  height: 60px;
+}
+
+.text-body-emphasis{
+  color: white;
+  font-family: 'Sora', sans-serif;
+  text-decoration: underline;
+}
+
+.col-lg-8mx-autofs-5text-muted{
+  color: rgb(0, 0, 0);
+  font-family: 'Sora', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
